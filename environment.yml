@@ -1,0 +1,17 @@
+name: comp_ling_env
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.10
+- pandas
+- numpy
+- pip
+- pip:
+  - regex
+  - pygrep
+  - flashtext
+  - spacy
+  - loguru
+  - pyspark
+  - kafka-python
