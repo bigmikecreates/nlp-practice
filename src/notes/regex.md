@@ -1,5 +1,7 @@
 # Regex Cheat Sheet
 
+Resource Link: https://docs.python.org/3/library/re.html
+
 | **Pattern** | **Meaning** | **Example** |
 |------------|------------|-------------|
 | `.` | Any character (except newline) | `"c.t"` → matches `"cat"`, `"cut"`, `"cot"` |
