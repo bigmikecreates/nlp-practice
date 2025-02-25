@@ -6,7 +6,7 @@ These sections currently include:
 
 <ol>
 <li> Resources
-<li> Focus 
+<li> Focus
 </ol>
 
 ## RESOURCES
@@ -18,14 +18,14 @@ The following documents can be found within the <code>\resources</code> director
 <li> <a href="resources/Foundations of Large Language Models - (16-Jan-2025).pdf"><strong>Foundations of Large Language Models (16-Jan-2025)</strong></a> by Tong Xiao & Jingbo Zhu
 <li> <a href="resources/EmoBench-M_Benchmarking_Emotional_Intelligence_for_Multimodal_Large_Language_Models - (6-Feb-2025).pdf"><strong>EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models (6-Feb-2025)</strong></a> by He Hu et al.
 <li> <a href="resources/A_Statistical_Framework_for_Ranking_LLM-Based_Chatbots - (24-Dec-2024).pdf"><strong>A Statistical Framework for Ranking LLM-Based Chatbots (24-Dec-2024)</strong></a> by Siavash Ameli et al.
-<li> <a href="resources/Mathematics_for_inference_ML - (13-Jan-2017).pdf"><strong>Imperial College: 'Mathematics for Inference and Machine Learning' (13-Jan-2017)</strong></a> instructed by Marc Deisenroth 7 Stefanos Zafeiriou
+<li> <a href="resources/Mathematics_for_inference_ML - (13-Jan-2017).pdf"><strong>Imperial College: 'Mathematics for Inference and Machine Learning' (13-Jan-2017)</strong></a> instructed by Marc Deisenroth & Stefanos Zafeiriou
 </ol>
 
 Consider reading through the above-listed resources in the order it's been displayed
 
 ## FOCUS
 
-This section provides a structured overview of key areas in Natural Language Processing (NLP), outlining major tasks and methodologies used to process and analyze human language:
+This section provides a brief overview outlining major tasks and methodologies used to process and analyze human language:
 
 <ol>
 <li> Text Processing & Tokenization
@@ -45,7 +45,7 @@ This section provides a structured overview of key areas in Natural Language Pro
 </ol>
 
 
-View below for a thorough breakdown for each section:
+A thorough breakdown for each section is given below:
 
 <ol type="1">
 
