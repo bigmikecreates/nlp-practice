@@ -1,31 +1,53 @@
 # NLP EXPLORATION
 
+![Python Version 3.10](https://img.shields.io/badge/Python-v3.10-darkgreen)
+![Virtual Environment Conda](https://img.shields.io/badge/virtualEnv-comp__ling__env-lightblue)
+
 This repository is my personal dedication to exploring various computational linguistic solutions.
 
-These sections currently include:
+## Table of Contents:
 
 <ol>
+<li> Setup
 <li> Resources
 <li> Focus
 </ol>
 
-## RESOURCES
+## Setup
+
+This repo is managed using a Conda environment - enter the following code in your terminal to initialize your environment with the appropriate packages:
+
+<pre>
+conda env create -f environment.yml
+</pre>
+
+You should get confirmation that the environment titled "comp_ling_env" has been created. Proceed with activating it accordingly:
+
+<pre>
+conda activate comp_ling_env
+</pre>
+
+The above operations are performed via the <strong>environment.yml file</strong> therefore any changes (i.e. addition/subtraction of packages to/from the environment) should be recorded in this file. 
+
+Please ensure you <strong>confirm the host for said package</strong> prior to modifying the YAML file (<strong>Conda packages have highest priority</strong>, therefore if a package is found e.g. on both PyPI and Conda, place it within the Conda section).
+
+## Resources
 
 The following documents can be found within the <code>\resources</code> directory:
 
 <ol>
-<li> <a href="resources/Speech and Language Processing (12-Jan-2025) - Daniel Jurafsky & James H. Martin.pdf"><strong>Speech and Language Processing (12-Jan-2025)</strong></a> by Daniel Jurafsky & James H. Martin
-<li> <a href="resources/Foundations of Large Language Models - (16-Jan-2025).pdf"><strong>Foundations of Large Language Models (16-Jan-2025)</strong></a> by Tong Xiao & Jingbo Zhu
+<li> <a href="resources/Speech and Language Processing (12-Jan-2025) - Daniel Jurafsky & James H. Martin.pdf"><strong>Speech and Language Processing (12-Jan-2025)</strong></a> by Daniel Jurafsky & James H. Martin.
+<li> <a href="resources/Foundations of Large Language Models - (16-Jan-2025).pdf"><strong>Foundations of Large Language Models (16-Jan-2025)</strong></a> by Tong Xiao & Jingbo Zhu.
 <li> <a href="resources/EmoBench-M_Benchmarking_Emotional_Intelligence_for_Multimodal_Large_Language_Models - (6-Feb-2025).pdf"><strong>EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models (6-Feb-2025)</strong></a> by He Hu et al.
 <li> <a href="resources/A_Statistical_Framework_for_Ranking_LLM-Based_Chatbots - (24-Dec-2024).pdf"><strong>A Statistical Framework for Ranking LLM-Based Chatbots (24-Dec-2024)</strong></a> by Siavash Ameli et al.
-<li> <a href="resources/Mathematics_for_inference_ML - (13-Jan-2017).pdf"><strong>Imperial College: 'Mathematics for Inference and Machine Learning' (13-Jan-2017)</strong></a> instructed by Marc Deisenroth & Stefanos Zafeiriou
+<li> <a href="resources/Mathematics_for_inference_ML - (13-Jan-2017).pdf"><strong>Imperial College: 'Mathematics for Inference and Machine Learning' (13-Jan-2017)</strong></a> instructed by Marc Deisenroth & Stefanos Zafeiriou.
 </ol>
 
-Consider reading through the above-listed resources in the order it's been displayed
+Consider reading through the above-listed resources in the order it's been displayed.
 
-## FOCUS
+## Focus
 
-This section provides a brief overview outlining major tasks and methodologies used to process and analyze human language:
+This section provides a brief overview outlining major tasks and methodologies used to process and analyze human language, which I aim to explore long-term in this repository.
 
 <ol>
 <li> Text Processing & Tokenization
@@ -44,8 +66,7 @@ This section provides a brief overview outlining major tasks and methodologies u
 <li> Multimodal NLP (Text + Image/Audio)
 </ol>
 
-
-A thorough breakdown for each section is given below:
+## Breakdown by Tasks/Methodologies
 
 <ol type="1">
 
