@@ -4,18 +4,17 @@ channels:
 - defaults
 dependencies:
 - python=3.10
-- pandas
-- numpy
+- pandas=2.2.3
+- numpy=2.2.3
 - pip
-- transformers
-- PIL
+- transformers=4.49.0
 - pip:
   - regex
   - pygrep
   - flashtext
   - spacy
   - loguru
-  - pyspark
+  - pyspark=3.5.4
   - kafka-python
   - warcio
   - kagglehub

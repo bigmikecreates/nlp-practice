@@ -1,14 +1,19 @@
+<div align="center">
+
 # NLP EXPLORATION
 
-![Python Version 3.10](https://img.shields.io/badge/Python-v3.10-darkgreen)
-![Virtual Environment Conda](https://img.shields.io/badge/virtualEnv-comp__ling__env-lightblue)
+![Python Version=3.10](https://img.shields.io/badge/Python-v3.10-darkgreen)
+![Virtual Environment Name=conda:comp_ling_env](https://img.shields.io/badge/VirtualEnv-Conda:_comp__ling__env-lightblue)
+![Docustring format=Sphinx Style](https://img.shields.io/badge/DocuString-Sphinx_Style-violet)
 
 This repository is my personal dedication to exploring various computational linguistic solutions.
+</div>
 
 ## Table of Contents:
 
 <ol>
 <li> Setup
+<li> <strong>Necessary Considerations</strong> (If forked, it is <strong>vital</strong> you review the section especially if you plan to submit a pull request).
 <li> Resources
 <li> Focus
 </ol>
@@ -21,15 +26,35 @@ This repo is managed using a Conda environment - enter the following code in you
 conda env create -f environment.yml
 </pre>
 
-You should get confirmation that the environment titled "comp_ling_env" has been created. Proceed with activating it accordingly:
+You should get confirmation that the environment titled <strong>"comp_ling_env"</strong> has been created. Proceed with activating it accordingly:
 
 <pre>
 conda activate comp_ling_env
 </pre>
 
-The above operations are performed via the <strong>environment.yml file</strong> therefore any changes (i.e. addition/subtraction of packages to/from the environment) should be recorded in this file. 
+</br>
+The above operations are performed via the <strong>environment.yml file</strong> therefore any changes (i.e. addition/subtraction of packages to/from the environment) should be recorded in this file.
+
+</br>
+You can use the command below for updating your environment's packages accordingly:
+
+</br>
+<pre>
+conda env update -f environment.yml
+</pre>
 
 Please ensure you <strong>confirm the host for said package</strong> prior to modifying the YAML file (<strong>Conda packages have highest priority</strong>, therefore if a package is found e.g. on both PyPI and Conda, place it within the Conda section).
+
+Certain packages have been left unspecified intentionally e.g.<code>kagglehub</code> - kindly take this into consideration when modifying the YAML file.
+
+## Necessary Considerations
+
+You should go through this section when <strong>initializing this repo</strong>, each time you <strong>start making modifications</strong>, and prior to <strong>committing an update</strong>.
+
+<ol>
+<li> Review the badges at the top of this README especially before initialization.
+<li> Ensure you follow the <strong>package preservation guidelines</strong> outlined in the <a href='#setup'>Setup</a> section.
+</ol>
 
 ## Resources
 
