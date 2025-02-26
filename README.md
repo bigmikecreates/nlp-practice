@@ -35,6 +35,7 @@ conda activate comp_ling_env
 </br>
 The above operations are performed via the <strong>environment.yml file</strong> therefore any changes (i.e. addition/subtraction of packages to/from the environment) should be recorded in this file.
 
+<br>
 </br>
 You can use the command below for updating your environment's packages accordingly:
 
