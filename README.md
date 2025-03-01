@@ -12,10 +12,10 @@ This repository is my personal dedication to exploring various computational lin
 ## Table of Contents:
 
 <ol>
-<li> Setup
+<li> Setup.
 <li> <strong>Necessary Considerations</strong> (If forked, it is <strong>vital</strong> you review the section especially if you plan to submit a pull request).
-<li> Resources
-<li> Focus
+<li> Resources.
+<li> Focus.
 </ol>
 
 ## Setup
