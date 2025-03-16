@@ -14,7 +14,9 @@ dependencies:
   - flashtext
   - spacy
   - loguru
-  - pyspark=3.5.4
+  - pyspark==3.5.4
   - kafka-python
   - warcio
   - kagglehub
+  - pyqt6
+  - pyqt6-tools
