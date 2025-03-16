@@ -3,7 +3,7 @@
 # NLP EXPLORATION
 
 ![Python Version=3.10](https://img.shields.io/badge/Python-v3.10-darkgreen)
-![Virtual Environment Name=conda:comp_ling_env](https://img.shields.io/badge/VirtualEnv-Conda:_comp__ling__env-lightblue)
+![Virtual Environment Name=[CONDA] cmomp_ling_env](https://img.shields.io/badge/VirtualEnv-[CONDA]_comp__ling__env-lightblue)
 ![Docustring format=Sphinx Style](https://img.shields.io/badge/DocuString-Sphinx_Style-violet)
 
 This repository is my personal dedication to exploring various computational linguistic solutions.
